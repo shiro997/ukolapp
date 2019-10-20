@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorUkolnavBackground">#4527A0</color>
+    <color name="colorUkolfragmentBackground">#D1C4E9</color>
+    <color name="colorUkolfragmentBackground2">#90CAF9</color>
+    <color name="colorUkolfragmentBackground3">#9FA8DA</color>
+    <color name="colorUkolCalendarSelector">#00F</color>
+    <color name="colorUkolfragmentBackground4">#C5E1A5</color>
 </resources>

@@ -9,7 +9,7 @@
         android:id="@+id/calendarToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#512DA8"
+        android:background="@color/colorUkolnavBackground"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
@@ -45,6 +45,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:mcv_showOtherDates="all"
-        app:mcv_selectionColor="#00F"/>
+        app:mcv_selectionColor="@color/colorUkolCalendarSelector"/>
 
 </RelativeLayout>
