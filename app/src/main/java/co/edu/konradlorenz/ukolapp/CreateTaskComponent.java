@@ -1,4 +1,7 @@
 package co.edu.konradlorenz.ukolapp;
 
-public class CreateTaskComponent {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CreateTaskComponent extends AppCompatActivity {
+
 }

@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new TasksFragment()).commit();
+                    new TasksFragment((FloatingActionButton) findViewById(R.id.createTask))).commit();
         }
     }
 
@@ -44,8 +45,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.nav_tasks:
+                TasksFragment tasks = new TasksFragment((FloatingActionButton) findViewById(R.id.createTask));
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new TasksFragment()).commit();
+                        tasks).commit();
                 break;
             case R.id.nav_repository:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
