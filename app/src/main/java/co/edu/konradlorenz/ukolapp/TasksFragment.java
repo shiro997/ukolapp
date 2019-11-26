@@ -15,8 +15,8 @@ public class TasksFragment extends Fragment {
 
     private FloatingActionButton createTask;
 
-    public TasksFragment(FloatingActionButton button){
-        this.createTask = button;
+    public void setCreateTask(FloatingActionButton button){
+        createTask = button;
     }
     @Nullable
     @Override

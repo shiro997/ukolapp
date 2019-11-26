@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toggle.syncState();
 
         if (savedInstanceState == null) {
+            TasksFragment tasks = new TasksFragment();
+            tasks.setCreateTask((FloatingActionButton)findViewById(R.id.createTask));
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new TasksFragment((FloatingActionButton) findViewById(R.id.createTask))).commit();
+                    tasks).commit();
         }
     }
 
@@ -45,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.nav_tasks:
-                TasksFragment tasks = new TasksFragment((FloatingActionButton) findViewById(R.id.createTask));
+                TasksFragment tasks = new TasksFragment();
+                tasks.setCreateTask((FloatingActionButton)findViewById(R.id.createTask));
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         tasks).commit();
                 break;
