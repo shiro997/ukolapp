@@ -1,5 +1,6 @@
 package co.edu.konradlorenz.ukolapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +12,10 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class TasksFragment extends Fragment {
+public class TasksFragment extends Fragment implements View.OnClickListener {
 
     private FloatingActionButton createTask;
+    private Intent connection;
 
     public void setCreateTask(FloatingActionButton button){
         createTask = button;
@@ -24,5 +26,13 @@ public class TasksFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_tasks, container, false);
     }
 
+    @Override
+    public void onClick(View view){
+        openCreate();
+    }
+
+    public void openCreate(){
+        Intent connection = new Intent(this.getContext(), CreateTaskComponent.class);
+    }
 
 }
