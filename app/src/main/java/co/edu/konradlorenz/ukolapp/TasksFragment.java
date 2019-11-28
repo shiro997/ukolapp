@@ -28,11 +28,10 @@ public class TasksFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view){
-        openCreate();
+        openCreate(view);
     }
 
-    public void openCreate(){
-        Intent connection = new Intent(this.getContext(), CreateTaskComponent.class);
+    public void openCreate(View view){
     }
 
 }
