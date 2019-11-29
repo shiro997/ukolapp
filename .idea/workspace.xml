@@ -9,6 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="95c7bbbd-1819-4860-845d-8d501d1e5430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -22,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="95c7bbbd-1819-4860-845d-8d501d1e5430" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
 =======
     <list default="true" id="95c7bbbd-1819-4860-845d-8d501d1e5430" name="Default Changelist" comment="" />
 >>>>>>> Stashed changes
@@ -45,7 +49,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
+=======
+      <file pinned="false" current-in-tab="true">
+>>>>>>> Stashed changes
 =======
       <file pinned="false" current-in-tab="true">
 >>>>>>> Stashed changes
@@ -59,6 +67,7 @@
         </entry>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml">
           <provider selected="true" editor-type-id="android-designer2" />
@@ -69,6 +78,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       <file pinned="false" current-in-tab="false">
@@ -240,8 +251,12 @@
     </navigator>
     <panes>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <pane id="PackagesPane" />
       <pane id="AndroidView">
+=======
+      <pane id="ProjectPane">
+>>>>>>> Stashed changes
 =======
       <pane id="ProjectPane">
 >>>>>>> Stashed changes
@@ -250,6 +265,7 @@
             <path>
               <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ukolapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+<<<<<<< Updated upstream
             </path>
             <path>
               <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +279,29 @@
               <item name="ukolapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
+            </path>
+            <path>
+              <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ukolapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+<<<<<<< Updated upstream
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
+            </path>
+            <path>
+              <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ukolapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +309,8 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
+=======
             </path>
             <path>
               <item name="UkolApp" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +326,7 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -294,8 +336,14 @@
         </subPane>
       </pane>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <pane id="ProjectPane" />
       <pane id="Scope" />
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> Stashed changes
 =======
       <pane id="AndroidView" />
       <pane id="Scope" />
@@ -307,7 +355,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Git-music/trabajo-music-aapp/android-cardview" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 >>>>>>> Stashed changes
@@ -405,7 +457,11 @@
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1933657" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22340426" />
+>>>>>>> Stashed changes
 =======
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22340426" />
 >>>>>>> Stashed changes
@@ -430,6 +486,9 @@
       <window_info active="true" anchor="bottom" id="Build" order="5" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.3296582" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -496,6 +555,7 @@
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -510,11 +570,21 @@
         <state relative-caret-position="357">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
 =======
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/edu/konradlorenz/ukolapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
 >>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
         </state>
       </provider>
     </entry>
