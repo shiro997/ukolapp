@@ -4,6 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+<<<<<<< Updated upstream
+=======
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/calendarToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorUkolnavBackground"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="316dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="0dp"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="4dp"
+                android:text="Settings"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+>>>>>>> Stashed changes
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,6 +51,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+<<<<<<< Updated upstream
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/calendarToolbar"
                 android:layout_width="match_parent"
@@ -48,6 +86,8 @@
 
             </androidx.appcompat.widget.Toolbar>
 
+=======
+>>>>>>> Stashed changes
             <TextView
                 android:id="@+id/topic"
                 android:layout_width="match_parent"
@@ -55,7 +95,11 @@
                 android:text="Localización"
                 android:textSize="25dp"
                 android:textStyle="bold"
+<<<<<<< Updated upstream
                 android:layout_marginTop="10dp"
+=======
+                android:layout_marginTop="70dp"
+>>>>>>> Stashed changes
                 android:layout_marginStart="20dp"/>
 
             <Switch
